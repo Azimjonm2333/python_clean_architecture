@@ -1,0 +1,2 @@
+class EntityAlreadyExists(Exception):
+    pass

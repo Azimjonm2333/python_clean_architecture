@@ -507,6 +507,16 @@ files = [
 referencing = ">=0.31.0"
 
 [[package]]
+name = "mediatr"
+version = "1.3.2"
+description = "mediator and CQRS pattern implementation with pipline behaviors for Python 3.6+. Mediatr py"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "mediatr-1.3.2.tar.gz", hash = "sha256:6a463c53fe35982cfff3e273a661cf317c46a850d3f0385493c0d7571c06b89f"},
+]
+
+[[package]]
 name = "mypy"
 version = "1.10.1"
 description = "Optional static typing for Python"
@@ -724,6 +734,17 @@ files = [
     {file = "psycopg2_binary-2.9.9-cp39-cp39-musllinux_1_1_x86_64.whl", hash = "sha256:ac05fb791acf5e1a3e39402641827780fe44d27e72567a000412c648a85ba860"},
     {file = "psycopg2_binary-2.9.9-cp39-cp39-win32.whl", hash = "sha256:9dba73be7305b399924709b91682299794887cbbd88e38226ed9f6712eabee90"},
     {file = "psycopg2_binary-2.9.9-cp39-cp39-win_amd64.whl", hash = "sha256:f7ae5d65ccfbebdfa761585228eb4d0df3a8b15cfb53bd953e713e09fbb12957"},
+]
+
+[[package]]
+name = "py-automapper"
+version = "1.2.3"
+description = "Library for automatically mapping one object to another"
+optional = false
+python-versions = ">=3.7,<4.0"
+files = [
+    {file = "py-automapper-1.2.3.tar.gz", hash = "sha256:ae1f6f270c3bb42cd52bfc124630841019b278258c001a8ed3032cffa03327b4"},
+    {file = "py_automapper-1.2.3-py3-none-any.whl", hash = "sha256:bcc5236fa0caeffa10416e31dd379fb6ddd15f18e6c2d7a1d49fb3d341f07653"},
 ]
 
 [[package]]
@@ -1255,4 +1276,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "b6d923639413b5dedc5eed7702fd5272e70cada960c421f624b3040e51f08a9d"
+content-hash = "5ae40290bfd130fe4481c4283f14f0d1e5f59e3a38d259c38f75afccb02c1886"
