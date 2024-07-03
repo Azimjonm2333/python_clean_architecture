@@ -1,14 +1,30 @@
 from dataclasses import asdict, dataclass
 from typing import Optional
 
-from src.domain.value_objects import RegionId
+from ..value_objects import CategoryId, ProductId
 
 
 @dataclass
-class Region:
-    region_id: RegionId
+class Category:
+    category_id: CategoryId
     name: str
-    parent: Optional["Region"]
+    description: str
+
+    @classmethod
+    def from_dict(cls, data):
+        return cls(**data)
+
+    def to_dict(self):
+        return asdict(self)
+
+
+@dataclass
+class Product:
+    product_id: ProductId
+    name: str
+    description: Optional[str]
+    price: float
+    category: Category
 
     @classmethod
     def from_dict(cls, data):

@@ -1,3 +1,2 @@
-CurrencyId = int
-RegionId = int
-UserId = int
+type ProductId = int
+type CategoryId = int
